@@ -329,18 +329,6 @@
         "version": "9f0a28542cea2d07fc8573f5048412e4cbee350c0c9d3470d3e50c8da08e7967",
         "signature": "9f0a28542cea2d07fc8573f5048412e4cbee350c0c9d3470d3e50c8da08e7967"
       },
-      "./node_modules/compose-ui/es/render.d.ts": {
-        "version": "9864bb4d2068e7509bd8772acbb4e5f34ed72ba167d595ebf901294f9922448b",
-        "signature": "9864bb4d2068e7509bd8772acbb4e5f34ed72ba167d595ebf901294f9922448b"
-      },
-      "./node_modules/@types/classnames/types.d.ts": {
-        "version": "dc688638e386342faae164e68ac0205274b6731e70ac1a45921f3ce3aa083795",
-        "signature": "dc688638e386342faae164e68ac0205274b6731e70ac1a45921f3ce3aa083795"
-      },
-      "./node_modules/@types/classnames/index.d.ts": {
-        "version": "d22e870fef25a052477d24f34356470262881420c8b058c89d86392de6502c42",
-        "signature": "d22e870fef25a052477d24f34356470262881420c8b058c89d86392de6502c42"
-      },
       "./node_modules/@types/react/global.d.ts": {
         "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
         "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6"
@@ -549,21 +537,9 @@
         "version": "5bd7af7a4e828c9d76fd7e249779d7428914b46a6f01097316329f5b0c3f7b64",
         "signature": "5bd7af7a4e828c9d76fd7e249779d7428914b46a6f01097316329f5b0c3f7b64"
       },
-      "./node_modules/compose-ui-mobx-dom/es/dom.d.ts": {
-        "version": "2257ff1bc04e084f0396344dc69ffe2b30ad61daa2dbe8c8dfc9f2ecce260eb1",
-        "signature": "2257ff1bc04e084f0396344dc69ffe2b30ad61daa2dbe8c8dfc9f2ecce260eb1"
-      },
       "./node_modules/compose-ui-mobx-dom/es/domx.d.ts": {
-        "version": "5f97a56c16208bc9d80e79424398040985528970b3507f46216490f967e804c7",
-        "signature": "5f97a56c16208bc9d80e79424398040985528970b3507f46216490f967e804c7"
-      },
-      "./src/grid/grid.scss.d.ts": {
-        "version": "4a112b49a243765fbc896d208a2e95b96e8c1f628fe8bf3516bdbdc377740362",
-        "signature": "4a112b49a243765fbc896d208a2e95b96e8c1f628fe8bf3516bdbdc377740362"
-      },
-      "./src/grid/grid.ts": {
-        "version": "bbda6e7f2789f97eb43b1f1a63ebd020cda835172de917bcd28aa4079b6329e7",
-        "signature": "db7ea43b1adc19421e1d0f1117bbc2f75a30770b53fd7a6936fa5fe48ab242ef"
+        "version": "0d86bdbdaaeb3d97f0e56121cff897c0a4810f8d5a6069cba1218bc522b35d7a",
+        "signature": "0d86bdbdaaeb3d97f0e56121cff897c0a4810f8d5a6069cba1218bc522b35d7a"
       },
       "./node_modules/compose-ui-mobx-dom/es/switch.d.ts": {
         "version": "6ae6060d8799a6c7eebfc88720cba052695d4b71429ccc3726eed563fe50b200",
@@ -585,25 +561,325 @@
         "version": "4f3c6c0ee9d12391cf1f6d87ca8d96dbd6115f4549cfbd81ce9246fcfddabe9f",
         "signature": "4f3c6c0ee9d12391cf1f6d87ca8d96dbd6115f4549cfbd81ce9246fcfddabe9f"
       },
+      "./node_modules/compose-ui-mobx-dom/es/text.d.ts": {
+        "version": "ab51bd703bed9d6cdf929341025b2dbe8a97b618b045b032b68ad3b60f48f2b0",
+        "signature": "ab51bd703bed9d6cdf929341025b2dbe8a97b618b045b032b68ad3b60f48f2b0"
+      },
       "./src/button/button.ts": {
-        "version": "248da18eeb1959ca6629bc1fd6e0cf8a63e9b639aa99c08ea00f76b69f433e87",
-        "signature": "b3bd8b232d5f1da83abb12be22a0fc73e3c07a78aa3d7eba3e8e1de1910a9161"
+        "version": "c646206ee177290d3c26eda1647584065ef4790fb5435a8e5f68e92c05316415",
+        "signature": "849c7c88ad301ef572897e29087e4afddd1db3fea5f143ffda4b2a11596c84f9"
+      },
+      "./node_modules/@types/classnames/types.d.ts": {
+        "version": "dc688638e386342faae164e68ac0205274b6731e70ac1a45921f3ce3aa083795",
+        "signature": "dc688638e386342faae164e68ac0205274b6731e70ac1a45921f3ce3aa083795"
+      },
+      "./node_modules/@types/classnames/index.d.ts": {
+        "version": "d22e870fef25a052477d24f34356470262881420c8b058c89d86392de6502c42",
+        "signature": "d22e870fef25a052477d24f34356470262881420c8b058c89d86392de6502c42"
+      },
+      "./src/grid/grid.scss.d.ts": {
+        "version": "077216edbdc3247ac7c55ec21304677f70796abf05278cfd8c92a87c3318ffc7",
+        "signature": "077216edbdc3247ac7c55ec21304677f70796abf05278cfd8c92a87c3318ffc7"
+      },
+      "./src/grid/grid.ts": {
+        "version": "18001c26bda706aff69cd9d07c3fcf492ef551f1d47e9c7c517f7bc06be25b0d",
+        "signature": "f435f7aa18f7a3ded1f8907a9913d547c2f3de553e1b75ed44f7854800d14cfd"
+      },
+      "./src/padding/padding.scss.d.ts": {
+        "version": "e0353af0e5dbf5b4751b26b05b50998edc77de8d02f1537c025fea914563005b",
+        "signature": "e0353af0e5dbf5b4751b26b05b50998edc77de8d02f1537c025fea914563005b"
+      },
+      "./src/padding/padding.ts": {
+        "version": "6306db99d62c9e68b9aff977265f74fb0e1a91e2c02e1d0a2375740b760529c5",
+        "signature": "6a54a1615f7b885e902c36b04dc12ade16bfbea37e6cb263e081d45a3d857e09"
+      },
+      "./node_modules/fp-ts/lib/hkt.d.ts": {
+        "version": "54a098c654bd4a1b420702693a923df4a2e767c82fc4461550ff32b43f965511",
+        "signature": "54a098c654bd4a1b420702693a923df4a2e767c82fc4461550ff32b43f965511"
+      },
+      "./node_modules/fp-ts/lib/functor.d.ts": {
+        "version": "ddf0b8aa89fec71ae9e42898f4d04ddb8df4d8588722c0cbee555c8523fee7ce",
+        "signature": "ddf0b8aa89fec71ae9e42898f4d04ddb8df4d8588722c0cbee555c8523fee7ce"
+      },
+      "./node_modules/fp-ts/lib/alt.d.ts": {
+        "version": "dc30d9fb6b62332a11751ec8a8ec5733afb337463ee0d48c0a72730939fa950b",
+        "signature": "dc30d9fb6b62332a11751ec8a8ec5733afb337463ee0d48c0a72730939fa950b"
+      },
+      "./node_modules/fp-ts/lib/apply.d.ts": {
+        "version": "a0b5eaf16dd66caa82e4f3b00489fea26152d00df72af956251b2ac89c319231",
+        "signature": "a0b5eaf16dd66caa82e4f3b00489fea26152d00df72af956251b2ac89c319231"
+      },
+      "./node_modules/fp-ts/lib/bifunctor.d.ts": {
+        "version": "7b7dcd2e47e87dfd95dee35c98a76d6ef86f04c16460f0de9e8cba8fe3ae8682",
+        "signature": "7b7dcd2e47e87dfd95dee35c98a76d6ef86f04c16460f0de9e8cba8fe3ae8682"
+      },
+      "./node_modules/fp-ts/lib/chain.d.ts": {
+        "version": "6c510e0f91672d10d9d1280802e51ed3472d0490f4ba5e008ca60429a70aee38",
+        "signature": "6c510e0f91672d10d9d1280802e51ed3472d0490f4ba5e008ca60429a70aee38"
+      },
+      "./node_modules/fp-ts/lib/chainrec.d.ts": {
+        "version": "ac0f2f3442a15c4fc60215556871209fd66e07c73bfc9daa12708f6e9b96881b",
+        "signature": "ac0f2f3442a15c4fc60215556871209fd66e07c73bfc9daa12708f6e9b96881b"
+      },
+      "./node_modules/fp-ts/lib/contravariant.d.ts": {
+        "version": "1fdcba00c5dca076ee78e68831e2df8e6147a4a2b1bdc73ff08e1971121f85e0",
+        "signature": "1fdcba00c5dca076ee78e68831e2df8e6147a4a2b1bdc73ff08e1971121f85e0"
+      },
+      "./node_modules/fp-ts/lib/applicative.d.ts": {
+        "version": "1cc2edcc386097b6b429d5f95b2c4a6752dad03430e29571ed3118e6f4d90718",
+        "signature": "1cc2edcc386097b6b429d5f95b2c4a6752dad03430e29571ed3118e6f4d90718"
+      },
+      "./node_modules/fp-ts/lib/function.d.ts": {
+        "version": "a6ce2e9bce2aa5993dc4ec554f7bc449e249ea5765cdc1d1f18d7599c61289e9",
+        "signature": "a6ce2e9bce2aa5993dc4ec554f7bc449e249ea5765cdc1d1f18d7599c61289e9"
+      },
+      "./node_modules/fp-ts/lib/alternative.d.ts": {
+        "version": "bff152de898b5396b7d5f8ff6caaccfdabe889bf6bc47e4dc2e3297490c3b86c",
+        "signature": "bff152de898b5396b7d5f8ff6caaccfdabe889bf6bc47e4dc2e3297490c3b86c"
+      },
+      "./node_modules/fp-ts/lib/extend.d.ts": {
+        "version": "867b8ab2eda489cb5c6c84831aefcb0fca0c817a00382741d5f9662c9cb41c7e",
+        "signature": "867b8ab2eda489cb5c6c84831aefcb0fca0c817a00382741d5f9662c9cb41c7e"
+      },
+      "./node_modules/fp-ts/lib/monad.d.ts": {
+        "version": "c20b1183d12ad53245b194e3228172542250d7625512ca5433045c1b772da170",
+        "signature": "c20b1183d12ad53245b194e3228172542250d7625512ca5433045c1b772da170"
+      },
+      "./node_modules/fp-ts/lib/magma.d.ts": {
+        "version": "91c23ca2aba684a1cab760b3a31b68d5451c201502fd034514473072abc4a347",
+        "signature": "91c23ca2aba684a1cab760b3a31b68d5451c201502fd034514473072abc4a347"
+      },
+      "./node_modules/fp-ts/lib/semigroup.d.ts": {
+        "version": "4a2324bb879463a63809e6b2a4e0276c3a532ded13659357d3d8a0dc5ab2ae34",
+        "signature": "4a2324bb879463a63809e6b2a4e0276c3a532ded13659357d3d8a0dc5ab2ae34"
+      },
+      "./node_modules/fp-ts/lib/ordering.d.ts": {
+        "version": "5da2665802fc7f9217bc435942cc19f1f5b8536087004af79daa35c10e07b7cd",
+        "signature": "5da2665802fc7f9217bc435942cc19f1f5b8536087004af79daa35c10e07b7cd"
+      },
+      "./node_modules/fp-ts/lib/ord.d.ts": {
+        "version": "aa5caf50155dc527ab373825dd868f15b5af2664cdd27b18218ace04b43340e7",
+        "signature": "aa5caf50155dc527ab373825dd868f15b5af2664cdd27b18218ace04b43340e7"
+      },
+      "./node_modules/fp-ts/lib/bounded.d.ts": {
+        "version": "c8b0189e44e1d8123f79512a39df51c1da920dd88d4a5cce977f6318f7d5e637",
+        "signature": "c8b0189e44e1d8123f79512a39df51c1da920dd88d4a5cce977f6318f7d5e637"
+      },
+      "./node_modules/fp-ts/lib/monoid.d.ts": {
+        "version": "4fedba33d932054aa64f89e6032ed90f02cb44ebbb6ba5e4139a53e812c84b37",
+        "signature": "4fedba33d932054aa64f89e6032ed90f02cb44ebbb6ba5e4139a53e812c84b37"
+      },
+      "./node_modules/fp-ts/lib/foldable.d.ts": {
+        "version": "e2d0936e3f3bb31d5466be0ba46a12d9fe0c2b5e7cf541f1960a3807595eb034",
+        "signature": "e2d0936e3f3bb31d5466be0ba46a12d9fe0c2b5e7cf541f1960a3807595eb034"
+      },
+      "./node_modules/fp-ts/lib/show.d.ts": {
+        "version": "0d2b06e5c7ab3ab387db6db178b48d4e9fddbffe9299245761cfc78f0e75fc7e",
+        "signature": "0d2b06e5c7ab3ab387db6db178b48d4e9fddbffe9299245761cfc78f0e75fc7e"
+      },
+      "./node_modules/fp-ts/lib/traversable.d.ts": {
+        "version": "881734f2bf1a7ab89ae0ecdeff4176645698c7545617ebab22fa094f3dab9f65",
+        "signature": "881734f2bf1a7ab89ae0ecdeff4176645698c7545617ebab22fa094f3dab9f65"
+      },
+      "./node_modules/fp-ts/lib/witherable.d.ts": {
+        "version": "fd7ec1e53c6c7037cff6eea8f1496bece117b2bdcf1af19d10ee70b08c085207",
+        "signature": "fd7ec1e53c6c7037cff6eea8f1496bece117b2bdcf1af19d10ee70b08c085207"
+      },
+      "./node_modules/fp-ts/lib/monadthrow.d.ts": {
+        "version": "ee59a508329703b7d5284c5a3d26164379ff533d23784cde979bee42c5ded170",
+        "signature": "ee59a508329703b7d5284c5a3d26164379ff533d23784cde979bee42c5ded170"
+      },
+      "./node_modules/fp-ts/lib/option.d.ts": {
+        "version": "1ca74723bf397347cae7bfe00f651e02cbde6ae67488233b80cca35ac4da5385",
+        "signature": "1ca74723bf397347cae7bfe00f651e02cbde6ae67488233b80cca35ac4da5385"
+      },
+      "./node_modules/fp-ts/lib/filterable.d.ts": {
+        "version": "2b8540c41121dc53a9794bdadbbea4588685a0568bf2955dffeb114aaf9f5d50",
+        "signature": "2b8540c41121dc53a9794bdadbbea4588685a0568bf2955dffeb114aaf9f5d50"
+      },
+      "./node_modules/fp-ts/lib/functorwithindex.d.ts": {
+        "version": "622a7c1d2c2bd41e69d18780ce5e35a87f11a3047b35fcf3464a88f0a1542b67",
+        "signature": "622a7c1d2c2bd41e69d18780ce5e35a87f11a3047b35fcf3464a88f0a1542b67"
+      },
+      "./node_modules/fp-ts/lib/filterablewithindex.d.ts": {
+        "version": "f21116d20ca2132ef3560ea6b6c7a0b0b138f0fbabf8b9569e5fa6fd774df7b4",
+        "signature": "f21116d20ca2132ef3560ea6b6c7a0b0b138f0fbabf8b9569e5fa6fd774df7b4"
+      },
+      "./node_modules/fp-ts/lib/foldablewithindex.d.ts": {
+        "version": "75a3a5446473419d90250463f2aa07db69aa71321aa008c45d57eb607192c127",
+        "signature": "75a3a5446473419d90250463f2aa07db69aa71321aa008c45d57eb607192c127"
+      },
+      "./node_modules/fp-ts/lib/traversablewithindex.d.ts": {
+        "version": "3772b5db956bbff6ea4bf5b21fb124cc7400cc14b9d79d950b99bc9247a089b3",
+        "signature": "3772b5db956bbff6ea4bf5b21fb124cc7400cc14b9d79d950b99bc9247a089b3"
+      },
+      "./node_modules/fp-ts/lib/unfoldable.d.ts": {
+        "version": "dd3fe961a1e8d57443de6d351be9f046e376f79d3bbcc2c1c3cf49d441973359",
+        "signature": "dd3fe961a1e8d57443de6d351be9f046e376f79d3bbcc2c1c3cf49d441973359"
+      },
+      "./node_modules/fp-ts/lib/readonlyrecord.d.ts": {
+        "version": "9473ebcaae7d9fba70ec65ff899c058e11cd5f7ad1c948e6c9f0ba768826f4ef",
+        "signature": "9473ebcaae7d9fba70ec65ff899c058e11cd5f7ad1c948e6c9f0ba768826f4ef"
+      },
+      "./node_modules/fp-ts/lib/eq.d.ts": {
+        "version": "67981e99b59feb4ca94a36e07fd474b8c99d1bb2d41b7e245d51e851ca0c3b65",
+        "signature": "67981e99b59feb4ca94a36e07fd474b8c99d1bb2d41b7e245d51e851ca0c3b65"
+      },
+      "./node_modules/fp-ts/lib/either.d.ts": {
+        "version": "3f601d51a1ae99b5c39d9e7f4e56bd27e30275237ee19a983ae24131ad88a025",
+        "signature": "3f601d51a1ae99b5c39d9e7f4e56bd27e30275237ee19a983ae24131ad88a025"
+      },
+      "./node_modules/fp-ts/lib/compactable.d.ts": {
+        "version": "befc81207163615aab3a159f83492f83964ab94b53868b7dc98008f51bd4753f",
+        "signature": "befc81207163615aab3a159f83492f83964ab94b53868b7dc98008f51bd4753f"
+      },
+      "./node_modules/fp-ts/lib/profunctor.d.ts": {
+        "version": "addd92fbaca6b392bc7cb9caa59ae4cc830973685f9174c4708aafaf901c8281",
+        "signature": "addd92fbaca6b392bc7cb9caa59ae4cc830973685f9174c4708aafaf901c8281"
+      },
+      "./node_modules/fp-ts/lib/semigroupoid.d.ts": {
+        "version": "b10e6c21558251b8c5aeaa1dc477c3e17bd6e583bd509589708a90bec5a8ed0a",
+        "signature": "b10e6c21558251b8c5aeaa1dc477c3e17bd6e583bd509589708a90bec5a8ed0a"
+      },
+      "./node_modules/fp-ts/lib/pipeable.d.ts": {
+        "version": "1b960cc02245b1bb4ed3a13b58c0489668b11d64e8e93cbce6efce9918c1c13c",
+        "signature": "1b960cc02245b1bb4ed3a13b58c0489668b11d64e8e93cbce6efce9918c1c13c"
+      },
+      "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts": {
+        "version": "f43c87b6a09c2144e619b148fb803ff95715bdd69bd5ab9364e4fcd7677eeab5",
+        "signature": "f43c87b6a09c2144e619b148fb803ff95715bdd69bd5ab9364e4fcd7677eeab5"
+      },
+      "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts": {
+        "version": "cd986686765f762655509f5e251857eb6971901def068f3af7a4f73010f8dbdc",
+        "signature": "cd986686765f762655509f5e251857eb6971901def068f3af7a4f73010f8dbdc"
+      },
+      "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts": {
+        "version": "71603165df91130267fa7817b884fb860a6229ad70c474c9126057f528ec97c4",
+        "signature": "71603165df91130267fa7817b884fb860a6229ad70c474c9126057f528ec97c4"
+      },
+      "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts": {
+        "version": "9e127d322fd1fe9ebc305b60cdd0ad5ac5f8a78037ca97b945c02bb5f22c1b17",
+        "signature": "9e127d322fd1fe9ebc305b60cdd0ad5ac5f8a78037ca97b945c02bb5f22c1b17"
+      },
+      "./node_modules/@material/textfield/node_modules/@material/base/types.d.ts": {
+        "version": "cd986686765f762655509f5e251857eb6971901def068f3af7a4f73010f8dbdc",
+        "signature": "cd986686765f762655509f5e251857eb6971901def068f3af7a4f73010f8dbdc"
+      },
+      "./node_modules/@material/textfield/node_modules/@material/base/component.d.ts": {
+        "version": "71603165df91130267fa7817b884fb860a6229ad70c474c9126057f528ec97c4",
+        "signature": "71603165df91130267fa7817b884fb860a6229ad70c474c9126057f528ec97c4"
+      },
+      "./node_modules/@material/floating-label/node_modules/@material/base/component.d.ts": {
+        "version": "71603165df91130267fa7817b884fb860a6229ad70c474c9126057f528ec97c4",
+        "signature": "71603165df91130267fa7817b884fb860a6229ad70c474c9126057f528ec97c4"
+      },
+      "./node_modules/@material/floating-label/node_modules/@material/base/foundation.d.ts": {
+        "version": "f43c87b6a09c2144e619b148fb803ff95715bdd69bd5ab9364e4fcd7677eeab5",
+        "signature": "f43c87b6a09c2144e619b148fb803ff95715bdd69bd5ab9364e4fcd7677eeab5"
+      },
+      "./node_modules/@material/floating-label/node_modules/@material/base/types.d.ts": {
+        "version": "cd986686765f762655509f5e251857eb6971901def068f3af7a4f73010f8dbdc",
+        "signature": "cd986686765f762655509f5e251857eb6971901def068f3af7a4f73010f8dbdc"
+      },
+      "./node_modules/@material/floating-label/adapter.d.ts": {
+        "version": "0b1229d3843048fcb756414106971ae241d87b44c61d8516fb69a73c907d8d72",
+        "signature": "0b1229d3843048fcb756414106971ae241d87b44c61d8516fb69a73c907d8d72"
+      },
+      "./node_modules/@material/floating-label/foundation.d.ts": {
+        "version": "37e2588f45f70cd750d8a15b0fca4d779ffd44e4506c17c8aa43271e19098d0b",
+        "signature": "37e2588f45f70cd750d8a15b0fca4d779ffd44e4506c17c8aa43271e19098d0b"
+      },
+      "./node_modules/@material/floating-label/component.d.ts": {
+        "version": "c3a3a3ff981b7e1ef745df7cd08e0239b123ba743d97c0ac4cc2ef9cb69247f1",
+        "signature": "c3a3a3ff981b7e1ef745df7cd08e0239b123ba743d97c0ac4cc2ef9cb69247f1"
+      },
+      "./node_modules/@material/line-ripple/node_modules/@material/base/component.d.ts": {
+        "version": "71603165df91130267fa7817b884fb860a6229ad70c474c9126057f528ec97c4",
+        "signature": "71603165df91130267fa7817b884fb860a6229ad70c474c9126057f528ec97c4"
+      },
+      "./node_modules/@material/line-ripple/node_modules/@material/base/foundation.d.ts": {
+        "version": "f43c87b6a09c2144e619b148fb803ff95715bdd69bd5ab9364e4fcd7677eeab5",
+        "signature": "f43c87b6a09c2144e619b148fb803ff95715bdd69bd5ab9364e4fcd7677eeab5"
+      },
+      "./node_modules/@material/line-ripple/node_modules/@material/base/types.d.ts": {
+        "version": "cd986686765f762655509f5e251857eb6971901def068f3af7a4f73010f8dbdc",
+        "signature": "cd986686765f762655509f5e251857eb6971901def068f3af7a4f73010f8dbdc"
+      },
+      "./node_modules/@material/line-ripple/adapter.d.ts": {
+        "version": "d7253384e5c87bb6eff44d5f66463232922ae24fe2e436209ea723bc05067053",
+        "signature": "d7253384e5c87bb6eff44d5f66463232922ae24fe2e436209ea723bc05067053"
+      },
+      "./node_modules/@material/line-ripple/foundation.d.ts": {
+        "version": "a687411988052865eae6a9e9ff44e649072b446ed46bc2a4bf238b1ea3ec027b",
+        "signature": "a687411988052865eae6a9e9ff44e649072b446ed46bc2a4bf238b1ea3ec027b"
+      },
+      "./node_modules/@material/line-ripple/component.d.ts": {
+        "version": "b77d3e66c58ab0a658e0a28653a1006c913c0eaf01bbaf9a9ee167cec8db3fa2",
+        "signature": "b77d3e66c58ab0a658e0a28653a1006c913c0eaf01bbaf9a9ee167cec8db3fa2"
+      },
+      "./node_modules/@material/notched-outline/adapter.d.ts": {
+        "version": "935caaa608cec4095ad2dac6bcc2f5382f34a542a10917383b7053f255d25297",
+        "signature": "935caaa608cec4095ad2dac6bcc2f5382f34a542a10917383b7053f255d25297"
+      },
+      "./node_modules/@material/notched-outline/foundation.d.ts": {
+        "version": "5a4146537c5463811b239ffed17b50a978fc485bcbf3cb9c1045147cbb48ba82",
+        "signature": "5a4146537c5463811b239ffed17b50a978fc485bcbf3cb9c1045147cbb48ba82"
+      },
+      "./node_modules/@material/notched-outline/component.d.ts": {
+        "version": "e7532d891e30a3597d88f64518d4503f729b7f8df57d6e7618eb70e7bd55ceaf",
+        "signature": "e7532d891e30a3597d88f64518d4503f729b7f8df57d6e7618eb70e7bd55ceaf"
+      },
+      "./node_modules/@material/textfield/node_modules/@material/ripple/types.d.ts": {
+        "version": "369efa0e52158877a1a97ca239a52468bd2cc26429ece8069c93a8bfb8b8f71c",
+        "signature": "369efa0e52158877a1a97ca239a52468bd2cc26429ece8069c93a8bfb8b8f71c"
+      },
+      "./node_modules/@material/textfield/node_modules/@material/ripple/adapter.d.ts": {
+        "version": "025eb503355f4bbe3e3fecc0bd1a72ecaa9cda73db6e0ecc657779d4172695f2",
+        "signature": "025eb503355f4bbe3e3fecc0bd1a72ecaa9cda73db6e0ecc657779d4172695f2"
+      },
+      "./node_modules/@material/textfield/node_modules/@material/base/foundation.d.ts": {
+        "version": "f43c87b6a09c2144e619b148fb803ff95715bdd69bd5ab9364e4fcd7677eeab5",
+        "signature": "f43c87b6a09c2144e619b148fb803ff95715bdd69bd5ab9364e4fcd7677eeab5"
+      },
+      "./node_modules/@material/textfield/node_modules/@material/ripple/foundation.d.ts": {
+        "version": "b8f056940fad38704499b314aeac628b98dd682b68574f4c60fcc01858351c5c",
+        "signature": "b8f056940fad38704499b314aeac628b98dd682b68574f4c60fcc01858351c5c"
+      },
+      "./node_modules/@material/textfield/node_modules/@material/ripple/component.d.ts": {
+        "version": "f6db341f09e4c67fa08cbbddee6ed312060ba2db170e2438b1f48c3fcfa3f971",
+        "signature": "f6db341f09e4c67fa08cbbddee6ed312060ba2db170e2438b1f48c3fcfa3f971"
+      },
+      "./node_modules/@material/textfield/dist/mdc.textfield.d.ts": {
+        "version": "e26478811321a47c28ef17194e313f95603423414681709ddf1a22cad7fa377c",
+        "signature": "e26478811321a47c28ef17194e313f95603423414681709ddf1a22cad7fa377c"
+      },
+      "./src/text-field/textfield.ts": {
+        "version": "5b6543ecec3a8bab1a0698a0c83548f5bcdc8609331362cec1d4d3145b533dc3",
+        "signature": "44ecb4788f5f590f330e5096cef5083cdd01d687c49178237630879d5bb82ecb"
       },
       "./src/app/home.ts": {
-        "version": "2e4cac14128c1f3011c99234d41738a4810d99e0afaca27059849bc09fac96b4",
-        "signature": "2ae26c3ec2bd2283e7a75d928cf81b2d920c8c33b9bacea1064a571ed980a365"
-      },
-      "./node_modules/jss/src/index.d.ts": {
-        "version": "b37610d1b2b8847033032cdb9f032be53afc8a0fdced3934206da61093e4413a",
-        "signature": "b37610d1b2b8847033032cdb9f032be53afc8a0fdced3934206da61093e4413a"
-      },
-      "./src/app/app.ts": {
-        "version": "43379507b2b47ece0a19542ad5bfcbb6582bdcabc0e9b4701f5ecf1c16cc2c76",
-        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+        "version": "128205c6019878624e7e5426804513d4131fa2ca9e5cf684c845b500f0bdd519",
+        "signature": "bb3d0faf1944515ecb9d90e8db97a13e9a18b556c2a046643b77406a53eba713"
       },
       "./src/types/@material/button/index.d.ts": {
         "version": "85b3c3a3eb3ed84d933bb44a85979d0b252ee4dbc26e156873d148148f05efe3",
         "signature": "85b3c3a3eb3ed84d933bb44a85979d0b252ee4dbc26e156873d148148f05efe3"
+      },
+      "./src/types/@material/notched-outline/index.d.ts": {
+        "version": "8d0a9d66c9e22cd4a6336c50bca7d9ed2318ffc9eb0f6f6a76a0f3aed177878e",
+        "signature": "8d0a9d66c9e22cd4a6336c50bca7d9ed2318ffc9eb0f6f6a76a0f3aed177878e"
+      },
+      "./src/types/@material/ripple/index.d.ts": {
+        "version": "19373255c67f2f084fc8e106620978bc199948312cec1e23f6f71b24e6bda334",
+        "signature": "19373255c67f2f084fc8e106620978bc199948312cec1e23f6f71b24e6bda334"
+      },
+      "./src/types/@material/textfield/index.d.ts": {
+        "version": "c7afb1c7be8844d640a504eac902d02e7392c92fe08da29efe851fe1735fc756",
+        "signature": "c7afb1c7be8844d640a504eac902d02e7392c92fe08da29efe851fe1735fc756"
+      },
+      "./node_modules/jss/src/index.d.ts": {
+        "version": "b37610d1b2b8847033032cdb9f032be53afc8a0fdced3934206da61093e4413a",
+        "signature": "b37610d1b2b8847033032cdb9f032be53afc8a0fdced3934206da61093e4413a"
       },
       "./src/with-styles/withstyles.ts": {
         "version": "1db877845583d85ba272e7232c47f20705eb72f5d05e80c18b5e6806f0cbec91",
@@ -1385,28 +1661,6 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/compose-ui/es/render.d.ts": [
-        "./node_modules/compose-ui/es/child.d.ts",
-        "./node_modules/@types/node/events.d.ts",
-        "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/classnames/types.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./node_modules/@types/classnames/index.d.ts": [
-        "./node_modules/@types/classnames/types.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./node_modules/@types/react/global.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1801,35 +2055,12 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/compose-ui-mobx-dom/es/dom.d.ts": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/compose-ui-mobx-dom/es/prop.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./node_modules/compose-ui-mobx-dom/es/domx.d.ts": [
         "./node_modules/compose-ui/es/child.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/compose-ui-mobx-dom/es/dom.d.ts",
+        "./node_modules/compose-ui-mobx-dom/es/prop.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/grid/grid.scss.d.ts": [
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/grid/grid.ts": [
-        "./node_modules/@types/classnames/index.d.ts",
-        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
-        "./src/grid/grid.scss.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1874,10 +2105,678 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./node_modules/compose-ui-mobx-dom/es/text.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/button/button.ts": [
         "./src/types/@material/button/index.d.ts",
-        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
         "./node_modules/@material/ripple/dist/mdc.ripple.d.ts",
+        "./src/types/@material/ripple/index.d.ts",
+        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
+        "./node_modules/compose-ui-mobx-dom/es/text.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/classnames/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/classnames/index.d.ts": [
+        "./node_modules/@types/classnames/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/grid/grid.scss.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/grid/grid.ts": [
+        "./node_modules/@types/classnames/index.d.ts",
+        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./src/grid/grid.scss.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/padding/padding.scss.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/padding/padding.ts": [
+        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
+        "./node_modules/@types/classnames/index.d.ts",
+        "./src/padding/padding.scss.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/hkt.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/functor.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/alt.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/apply.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/bifunctor.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/chain.d.ts": [
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/chainrec.d.ts": [
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/contravariant.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/applicative.d.ts": [
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/function.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/alternative.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/extend.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monad.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/magma.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/semigroup.d.ts": [
+        "./node_modules/fp-ts/lib/magma.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/ordering.d.ts": [
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/ord.d.ts": [
+        "./node_modules/fp-ts/lib/ordering.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/bounded.d.ts": [
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monoid.d.ts": [
+        "./node_modules/fp-ts/lib/bounded.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/foldable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/show.d.ts": [
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/traversable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/witherable.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monadthrow.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/option.d.ts": [
+        "./node_modules/fp-ts/lib/alternative.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/filterable.d.ts": [
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/functorwithindex.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/filterablewithindex.d.ts": [
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/foldablewithindex.d.ts": [
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/traversablewithindex.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/foldablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/unfoldable.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/readonlyrecord.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/filterablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/foldablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/magma.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/unfoldable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/eq.d.ts": [
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/either.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/bifunctor.d.ts",
+        "./node_modules/fp-ts/lib/chainrec.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/compactable.d.ts": [
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/profunctor.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/semigroupoid.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/pipeable.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/bifunctor.d.ts",
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/filterablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/foldablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/profunctor.d.ts",
+        "./node_modules/fp-ts/lib/semigroupoid.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts": [
+        "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/adapter.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/foundation.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/floating-label/adapter.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/floating-label/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/adapter.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/foundation.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/line-ripple/adapter.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/line-ripple/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/adapter.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/foundation.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/adapter.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/notched-outline/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/ripple/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/ripple/adapter.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/ripple/foundation.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/adapter.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/ripple/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/adapter.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/foundation.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/dist/mdc.textfield.d.ts": [
+        "./node_modules/@material/textfield/dist/mdc.textfield.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/floating-label/component.d.ts",
+        "./node_modules/@material/line-ripple/component.d.ts",
+        "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts",
+        "./node_modules/@material/ripple/dist/mdc.ripple.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/text-field/textfield.ts": [
+        "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts",
+        "./src/types/@material/notched-outline/index.d.ts",
+        "./node_modules/@material/textfield/dist/mdc.textfield.d.ts",
+        "./src/types/@material/textfield/index.d.ts",
+        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1886,9 +2785,36 @@
       "./src/app/home.ts": [
         "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
         "./node_modules/compose-ui-mobx-dom/es/switch.d.ts",
-        "./src/grid/grid.ts",
         "./node_modules/mobx/lib/mobx.d.ts",
         "./src/button/button.ts",
+        "./src/grid/grid.ts",
+        "./src/padding/padding.ts",
+        "./node_modules/fp-ts/lib/pipeable.d.ts",
+        "./src/text-field/textfield.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/@material/button/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/@material/notched-outline/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/@material/ripple/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/@material/textfield/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -1896,22 +2822,6 @@
       ],
       "./node_modules/jss/src/index.d.ts": [
         "./node_modules/csstype/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/app/app.ts": [
-        "./node_modules/compose-ui/es/render.d.ts",
-        "./src/grid/grid.ts",
-        "./src/app/home.ts",
-        "./node_modules/jss/src/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "./src/types/@material/button/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -2612,12 +3522,6 @@
       "./node_modules/compose-ui/es/child.d.ts": [
         "./node_modules/compose-ui/es/component.d.ts"
       ],
-      "./node_modules/compose-ui/es/render.d.ts": [
-        "./node_modules/compose-ui/es/child.d.ts"
-      ],
-      "./node_modules/@types/classnames/index.d.ts": [
-        "./node_modules/@types/classnames/types.d.ts"
-      ],
       "./node_modules/@types/react/index.d.ts": [
         "./node_modules/csstype/index.d.ts",
         "./node_modules/@types/prop-types/index.d.ts",
@@ -2768,37 +3672,77 @@
       "./node_modules/compose-ui-mobx-dom/es/prop.d.ts": [
         "./node_modules/mobx/lib/mobx.d.ts"
       ],
-      "./node_modules/compose-ui-mobx-dom/es/dom.d.ts": [
-        "./node_modules/@types/react/index.d.ts",
-        "./node_modules/compose-ui-mobx-dom/es/prop.d.ts",
-        "./node_modules/@types/node/fs.d.ts",
-        "./node_modules/@types/node/ts3.2/fs.d.ts",
-        "./node_modules/@types/node/util.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "./node_modules/compose-ui-mobx-dom/es/domx.d.ts": [
         "./node_modules/compose-ui/es/child.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./node_modules/compose-ui-mobx-dom/es/dom.d.ts",
+        "./node_modules/compose-ui-mobx-dom/es/prop.d.ts",
         "./node_modules/@types/node/ts3.2/index.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/grid/grid.ts": [
-        "./node_modules/@types/node/events.d.ts",
-        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts"
-      ],
       "./node_modules/compose-ui-mobx-dom/es/switch.d.ts": [
         "./node_modules/compose-ui/es/child.d.ts"
       ],
+      "./node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/ripple/dist/mdc.ripple.d.ts": [
+        "./node_modules/@material/ripple/dist/mdc.ripple.d.ts",
+        "./node_modules/@material/base/types.d.ts",
+        "./node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "./src/button/button.ts": [
+        "./src/types/@material/ripple/index.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts"
+      ],
+      "./node_modules/@types/classnames/index.d.ts": [
+        "./node_modules/@types/classnames/types.d.ts"
+      ],
+      "./src/grid/grid.scss.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/grid/grid.ts": [
+        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
         "./node_modules/@types/node/events.d.ts"
       ],
       "./src/app/home.ts": [
-        "./node_modules/@types/node/events.d.ts"
+        "./node_modules/@types/node/events.d.ts",
+        "./src/grid/grid.ts"
+      ],
+      "./src/types/@material/button/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "./node_modules/jss/src/index.d.ts": [
         "./node_modules/csstype/index.d.ts"
@@ -3100,43 +4044,643 @@
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/grid/grid.scss.d.ts": [
+      "./src/text-field/textfield.ts": [
+        "./src/types/@material/notched-outline/index.d.ts",
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./src/padding/padding.ts": [
+        "./node_modules/compose-ui-mobx-dom/es/domx.d.ts"
+      ],
+      "./node_modules/compose-ui-mobx-dom/es/text.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@material/base/types.d.ts": [
+      "./src/padding/padding.scss.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@material/ripple/dist/mdc.ripple.d.ts": [
+      "./node_modules/fp-ts/lib/hkt.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/pipeable.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/bifunctor.d.ts",
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/filterablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/foldablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/profunctor.d.ts",
+        "./node_modules/fp-ts/lib/semigroupoid.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/semigroupoid.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/profunctor.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/compactable.d.ts": [
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/readonlyrecord.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/filterablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/foldablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/magma.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/unfoldable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/either.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/bifunctor.d.ts",
+        "./node_modules/fp-ts/lib/chainrec.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/eq.d.ts": [
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/option.d.ts": [
+        "./node_modules/fp-ts/lib/alternative.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/extend.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/show.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/witherable.d.ts",
+        "./node_modules/fp-ts/lib/monadthrow.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/unfoldable.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/filterablewithindex.d.ts": [
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/filterable.d.ts": [
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/witherable.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/filterable.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/compactable.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/ord.d.ts": [
+        "./node_modules/fp-ts/lib/ordering.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/contravariant.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/option.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/bounded.d.ts": [
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monoid.d.ts": [
+        "./node_modules/fp-ts/lib/bounded.d.ts",
+        "./node_modules/fp-ts/lib/function.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/foldablewithindex.d.ts": [
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/traversablewithindex.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/foldablewithindex.d.ts",
+        "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/traversable.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/foldable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/traversable.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/foldable.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/ordering.d.ts": [
+        "./node_modules/fp-ts/lib/semigroup.d.ts",
+        "./node_modules/fp-ts/lib/eq.d.ts",
+        "./node_modules/fp-ts/lib/monoid.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/semigroup.d.ts": [
+        "./node_modules/fp-ts/lib/magma.d.ts",
+        "./node_modules/fp-ts/lib/ord.d.ts",
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/chainrec.d.ts": [
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/either.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/show.d.ts": [
+        "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/functorwithindex.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monadthrow.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/fp-ts/lib/monad.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/monad.d.ts": [
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/chain.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/extend.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/alternative.d.ts": [
+        "./node_modules/fp-ts/lib/alt.d.ts",
+        "./node_modules/fp-ts/lib/applicative.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/applicative.d.ts": [
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/contravariant.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/chain.d.ts": [
+        "./node_modules/fp-ts/lib/apply.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/bifunctor.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/apply.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/alt.d.ts": [
+        "./node_modules/fp-ts/lib/functor.d.ts",
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/functor.d.ts": [
+        "./node_modules/fp-ts/lib/hkt.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/function.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/fp-ts/lib/magma.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/dist/mdc.textfield.d.ts": [
+        "./node_modules/@material/textfield/dist/mdc.textfield.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/floating-label/component.d.ts",
+        "./node_modules/@material/line-ripple/component.d.ts",
+        "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts",
         "./node_modules/@material/ripple/dist/mdc.ripple.d.ts",
-        "./node_modules/@material/base/types.d.ts",
-        "./node_modules/@material/base/component.d.ts",
-        "./node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@material/base/component.d.ts": [
-        "./node_modules/@material/base/foundation.d.ts",
-        "./node_modules/@material/base/types.d.ts",
+      "./node_modules/@material/textfield/node_modules/@material/ripple/foundation.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/adapter.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./node_modules/@material/base/foundation.d.ts": [
+      "./node_modules/@material/textfield/node_modules/@material/ripple/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/adapter.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/foundation.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/types.d.ts",
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "./src/types/@material/button/index.d.ts": [
+      "./node_modules/@material/notched-outline/foundation.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/adapter.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/notched-outline/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/foundation.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/line-ripple/adapter.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/line-ripple/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/foundation.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/floating-label/adapter.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/floating-label/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts": [
+        "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/ripple/adapter.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@material/textfield/node_modules/@material/ripple/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/adapter.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/adapter.d.ts": [
+        "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/floating-label/node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/line-ripple/node_modules/@material/base/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/notched-outline/adapter.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/ripple/types.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@material/textfield/node_modules/@material/base/foundation.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/@material/notched-outline/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/@material/ripple/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/fs.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/@material/textfield/index.d.ts": [
         "./node_modules/@types/node/fs.d.ts",
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
@@ -3226,9 +4770,6 @@
       "./node_modules/@types/node/ts3.2/index.d.ts",
       "./node_modules/compose-ui/es/component.d.ts",
       "./node_modules/compose-ui/es/child.d.ts",
-      "./node_modules/compose-ui/es/render.d.ts",
-      "./node_modules/@types/classnames/types.d.ts",
-      "./node_modules/@types/classnames/index.d.ts",
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/csstype/index.d.ts",
       "./node_modules/@types/prop-types/index.d.ts",
@@ -3281,8 +4822,14 @@
       "./node_modules/mobx/lib/internal.d.ts",
       "./node_modules/mobx/lib/mobx.d.ts",
       "./node_modules/compose-ui-mobx-dom/es/prop.d.ts",
-      "./node_modules/compose-ui-mobx-dom/es/dom.d.ts",
       "./node_modules/compose-ui-mobx-dom/es/switch.d.ts",
+      "./node_modules/@material/base/types.d.ts",
+      "./node_modules/@material/base/foundation.d.ts",
+      "./node_modules/@material/base/component.d.ts",
+      "./node_modules/@material/ripple/dist/mdc.ripple.d.ts",
+      "./node_modules/@types/classnames/types.d.ts",
+      "./node_modules/@types/classnames/index.d.ts",
+      "./src/types/@material/button/index.d.ts",
       "./node_modules/jss/src/index.d.ts",
       "./src/with-styles/withstyles.ts",
       "./node_modules/@types/anymatch/index.d.ts",
@@ -3327,15 +4874,81 @@
       "./node_modules/@types/yargs-parser/index.d.ts",
       "./node_modules/@types/yargs/index.d.ts",
       "./node_modules/compose-ui-mobx-dom/es/domx.d.ts",
-      "./src/app/app.ts",
+      "./src/padding/padding.ts",
       "./src/grid/grid.ts",
-      "./src/grid/grid.scss.d.ts",
-      "./node_modules/@material/base/types.d.ts",
-      "./node_modules/@material/base/component.d.ts",
-      "./node_modules/@material/base/foundation.d.ts",
-      "./src/types/@material/button/index.d.ts",
-      "./node_modules/@material/ripple/dist/mdc.ripple.d.ts",
       "./src/button/button.ts",
+      "./node_modules/compose-ui-mobx-dom/es/text.d.ts",
+      "./src/grid/grid.scss.d.ts",
+      "./src/padding/padding.scss.d.ts",
+      "./node_modules/fp-ts/lib/hkt.d.ts",
+      "./node_modules/fp-ts/lib/semigroupoid.d.ts",
+      "./node_modules/fp-ts/lib/profunctor.d.ts",
+      "./node_modules/fp-ts/lib/functorwithindex.d.ts",
+      "./node_modules/fp-ts/lib/extend.d.ts",
+      "./node_modules/fp-ts/lib/contravariant.d.ts",
+      "./node_modules/fp-ts/lib/bifunctor.d.ts",
+      "./node_modules/fp-ts/lib/apply.d.ts",
+      "./node_modules/fp-ts/lib/alt.d.ts",
+      "./node_modules/fp-ts/lib/functor.d.ts",
+      "./node_modules/fp-ts/lib/function.d.ts",
+      "./node_modules/fp-ts/lib/magma.d.ts",
+      "./node_modules/@material/notched-outline/node_modules/@material/base/foundation.d.ts",
+      "./node_modules/@material/notched-outline/foundation.d.ts",
+      "./node_modules/@material/line-ripple/node_modules/@material/base/component.d.ts",
+      "./node_modules/@material/floating-label/node_modules/@material/base/component.d.ts",
+      "./node_modules/@material/textfield/node_modules/@material/base/component.d.ts",
+      "./node_modules/@material/notched-outline/node_modules/@material/base/component.d.ts",
+      "./node_modules/@material/notched-outline/node_modules/@material/base/types.d.ts",
+      "./node_modules/@material/textfield/node_modules/@material/ripple/adapter.d.ts",
+      "./node_modules/@material/line-ripple/adapter.d.ts",
+      "./node_modules/@material/floating-label/adapter.d.ts",
+      "./node_modules/@material/textfield/node_modules/@material/base/types.d.ts",
+      "./node_modules/@material/floating-label/node_modules/@material/base/foundation.d.ts",
+      "./node_modules/@material/floating-label/node_modules/@material/base/types.d.ts",
+      "./node_modules/@material/line-ripple/node_modules/@material/base/foundation.d.ts",
+      "./node_modules/@material/line-ripple/node_modules/@material/base/types.d.ts",
+      "./node_modules/@material/notched-outline/adapter.d.ts",
+      "./node_modules/@material/textfield/node_modules/@material/ripple/types.d.ts",
+      "./node_modules/@material/textfield/node_modules/@material/base/foundation.d.ts",
+      "./src/types/@material/notched-outline/index.d.ts",
+      "./src/types/@material/ripple/index.d.ts",
+      "./src/types/@material/textfield/index.d.ts",
+      "./node_modules/fp-ts/lib/chain.d.ts",
+      "./node_modules/fp-ts/lib/chainrec.d.ts",
+      "./node_modules/fp-ts/lib/applicative.d.ts",
+      "./node_modules/fp-ts/lib/alternative.d.ts",
+      "./node_modules/fp-ts/lib/monad.d.ts",
+      "./node_modules/fp-ts/lib/semigroup.d.ts",
+      "./node_modules/fp-ts/lib/ordering.d.ts",
+      "./node_modules/fp-ts/lib/ord.d.ts",
+      "./node_modules/fp-ts/lib/bounded.d.ts",
+      "./node_modules/fp-ts/lib/monoid.d.ts",
+      "./node_modules/fp-ts/lib/foldable.d.ts",
+      "./node_modules/fp-ts/lib/show.d.ts",
+      "./node_modules/fp-ts/lib/traversable.d.ts",
+      "./node_modules/fp-ts/lib/witherable.d.ts",
+      "./node_modules/fp-ts/lib/monadthrow.d.ts",
+      "./node_modules/fp-ts/lib/option.d.ts",
+      "./node_modules/fp-ts/lib/filterable.d.ts",
+      "./node_modules/fp-ts/lib/filterablewithindex.d.ts",
+      "./node_modules/fp-ts/lib/foldablewithindex.d.ts",
+      "./node_modules/fp-ts/lib/traversablewithindex.d.ts",
+      "./node_modules/fp-ts/lib/unfoldable.d.ts",
+      "./node_modules/fp-ts/lib/readonlyrecord.d.ts",
+      "./node_modules/fp-ts/lib/eq.d.ts",
+      "./node_modules/fp-ts/lib/either.d.ts",
+      "./node_modules/fp-ts/lib/compactable.d.ts",
+      "./node_modules/fp-ts/lib/pipeable.d.ts",
+      "./node_modules/@material/notched-outline/dist/mdc.notchedoutline.d.ts",
+      "./node_modules/@material/floating-label/foundation.d.ts",
+      "./node_modules/@material/floating-label/component.d.ts",
+      "./node_modules/@material/line-ripple/foundation.d.ts",
+      "./node_modules/@material/line-ripple/component.d.ts",
+      "./node_modules/@material/notched-outline/component.d.ts",
+      "./node_modules/@material/textfield/node_modules/@material/ripple/foundation.d.ts",
+      "./node_modules/@material/textfield/node_modules/@material/ripple/component.d.ts",
+      "./node_modules/@material/textfield/dist/mdc.textfield.d.ts",
+      "./src/text-field/textfield.ts",
       "./src/app/home.ts"
     ]
   },

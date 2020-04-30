@@ -37,6 +37,9 @@
   },
   "dependencies": {
     "@material/button": "^5.1.0",
+    "@material/notched-outline": "^6.0.0",
+    "@material/textfield": "^6.0.0",
+    "@material/typography": "^6.0.0",
     "classnames": "^2.2.6",
     "compose-ui": "^1.0.0",
     "compose-ui-mobx-dom": "^1.0.0",

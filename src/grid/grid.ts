@@ -3,7 +3,7 @@ import { domx, DomXProps } from "compose-ui-mobx-dom/es/domx"
 import { EventEmitter } from "events"
 import * as styles from "./grid.scss"
 
-export interface GridProps extends Omit<Partial<DomXProps<"div">>, "type"> {
+export interface GridProps extends Omit<Partial<DomXProps<"div">>, "tagName"> {
   container?: boolean
   direction?: "row" | "column"
 }
@@ -17,7 +17,7 @@ export function Grid(props: GridProps) {
     })
 
     return domx<"div">({
-      type: "div",
+      tagName: "div",
       ...rest,
       className: () =>
         classNames(rest.className?.(), styles.root, {

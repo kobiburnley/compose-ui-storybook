@@ -5,6 +5,7 @@ import { Button } from "../button/button"
 import { Grid, GridProps } from "../grid/grid"
 import { padding } from "../padding/padding"
 import { pipe } from "fp-ts/lib/pipeable"
+import { TextField } from '../text-field/textField'
 
 const data = observable({
   count: 0,
@@ -29,7 +30,7 @@ export function Home(props?: GridProps) {
                 }),
               ],
             } as GridProps,
-            padding({ xs: 16 })
+            padding<GridProps>({ xs: 16 })
           )
         ),
         Switch({
@@ -37,7 +38,7 @@ export function Home(props?: GridProps) {
           when: (value) => {
             return value
               ? domx({
-                  type: "div",
+                  tagName: "div",
                   children: ["10"],
                 })
               : Grid({
@@ -45,6 +46,17 @@ export function Home(props?: GridProps) {
                 })
           },
         }),
+        Grid(
+          pipe(
+            {
+              container: true,
+              children: [
+                TextField()
+              ],
+            } as GridProps,
+            padding<GridProps>({ xs: 16 })
+          )
+        ),
       ],
       ...props,
     })
