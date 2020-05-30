@@ -1,14 +1,16 @@
 import { domx } from "compose-ui-mobx-dom/es/domx"
 import { Switch } from "compose-ui-mobx-dom/es/switch"
-import { observable } from "mobx"
+import { Text } from 'compose-ui-mobx-dom/es/text'
+import { pipe } from "fp-ts/lib/pipeable"
+import { action, observable } from "mobx"
 import { Button } from "../button/button"
 import { Grid, GridProps } from "../grid/grid"
 import { padding } from "../padding/padding"
-import { pipe } from "fp-ts/lib/pipeable"
-import { TextField } from '../text-field/textField'
+import { TextField } from "../text-field/textField"
 
 const data = observable({
   count: 0,
+  username: "enter username",
 })
 
 export function Home(props?: GridProps) {
@@ -51,7 +53,24 @@ export function Home(props?: GridProps) {
             {
               container: true,
               children: [
-                TextField()
+                TextField({
+                  label: Text({
+                    data: () => "Username"
+                  }),
+                  value: () => data.username,
+                  onChange: action((value) => {
+                    data.username = value
+                  }),
+                }),
+                TextField({
+                  label: Text({
+                    data: () => "Username copy"
+                  }),
+                  value: () => data.username,
+                  onChange: action((value) => {
+                    data.username = value
+                  }),
+                }),
               ],
             } as GridProps,
             padding<GridProps>({ xs: 16 })

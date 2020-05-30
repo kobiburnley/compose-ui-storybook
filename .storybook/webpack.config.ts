@@ -4,7 +4,7 @@ import * as os from "os"
 import {Configuration} from "webpack"
 
 module.exports = ({ config }: {config: Configuration}) => {
-  config.module.rules.push({
+  config.module!.rules.push({
     test: /\.(ts|tsx)$/,
     rules: [
       {
@@ -18,7 +18,7 @@ module.exports = ({ config }: {config: Configuration}) => {
         loader: "ts-loader",
         exclude: /node_modules/,
         options: {
-          configFile: path.resolve(__dirname, "../tsconfig.json"),
+          configFile: path.resolve(__dirname, "../tsconfig.build.json"),
           transpileOnly: true,
         },
       },
@@ -26,7 +26,7 @@ module.exports = ({ config }: {config: Configuration}) => {
   })
 
 
-  config.module.rules.push({
+  config.module!.rules.push({
     test: /\.s[ac]ss$/i,
     include: /node_modules/,
     use: [
@@ -54,7 +54,7 @@ module.exports = ({ config }: {config: Configuration}) => {
     ],
   })
 
-  config.module.rules.push({
+  config.module!.rules.push({
     test: /\.s[ac]ss$/i,
     exclude: /node_modules/,
     use: [
@@ -78,11 +78,11 @@ module.exports = ({ config }: {config: Configuration}) => {
     ],
   })
 
-  config.resolve.extensions.push(".ts", ".tsx", ".scss")
+  config.resolve!.extensions!.push(".ts", ".tsx", ".scss")
 
-  config.plugins.push(
+  config.plugins!.push(
     new ForkTsCheckerWebpackPlugin({
-      tsconfig: path.resolve(__dirname, "../tsconfig.json"),
+      tsconfig: path.resolve(__dirname, "../tsconfig.build.json"),
     })
   )
 

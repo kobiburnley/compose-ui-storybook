@@ -1,17 +1,22 @@
-import { MDCNotchedOutline } from "@material/notched-outline"
 import "@material/notched-outline/mdc-notched-outline.scss"
 import { MDCTextField } from "@material/textfield"
 import * as styles from "@material/textfield/mdc-text-field.scss"
-import { domx } from "compose-ui-mobx-dom/es/domx"
 import * as classNames from "classnames"
-
+import { domx, DomXProps } from "compose-ui-mobx-dom/es/domx"
+import { propReaction } from "compose-ui-mobx-dom/es/prop"
+import { Child } from "compose-ui/es/child"
+import { NotchedOutline } from "../notched-outline/notchedOutline"
+import { FloatingLabel } from '../floating-label/floatingLabel'
 export interface TextFieldProps {
-  value: string
-  onChange: (value: string) => unknown
+  value?: () => string
+  onChange?: (value: string) => unknown
+  inputProps?: DomXProps<"input">
+  label?: Child
 }
 
-export function TextField() {
+export function TextField(props: TextFieldProps = {}) {
   return function TextField() {
+    const { value, onChange, label, inputProps } = props
     return domx({
       tagName: "label",
       className: () =>
@@ -23,42 +28,26 @@ export function TextField() {
         MDCTextField.attachTo(element)
       },
       children: [
-        domx({
+        domx<"input">({
           tagName: "input",
           type: () => "text",
           className: () => styles["mdc-text-field__input"],
-          value: () => "dlalal",
-          onChange: () => {
-            console.log("on change")
+          onInput: (event) => {
+            onChange?.(event.target.value)
           },
-        }),
-        domx({
-          tagName: "span",
-          className: () => styles["mdc-notched-outline"],
           ref: (element) => {
-            MDCNotchedOutline.attachTo(element)
+            if(value != null) {
+              propReaction("value", value, (value) => {
+                element.value = value
+              })
+            }
           },
-          children: [
-            domx({
-              tagName: "span",
-              className: () => styles["mdc-notched-outline__leading"],
-            }),
-            domx({
-              tagName: "span",
-              className: () => styles["mdc-notched-outline__notch"],
-              children: [
-                domx({
-                  tagName: "span",
-                  className: () => styles["mdc-floating-label"],
-                  children: ["Name"],
-                }),
-              ],
-            }),
-            domx({
-              tagName: "span",
-              className: () => styles["mdc-notched-outline__trailing"],
-            }),
-          ],
+          ...inputProps,
+        }),
+        NotchedOutline({
+          notch: FloatingLabel({
+            children: [label].filter((e): e is Child => e != null),
+          })
         }),
       ],
     })
