@@ -15,6 +15,10 @@
     "sourceMap": true,
     "target": "ES2018",
     "downlevelIteration": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "compose-ui/es/*": ["../compose-ui/src/*"]
+    }
   }
 }

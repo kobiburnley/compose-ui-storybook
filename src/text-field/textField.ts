@@ -5,8 +5,9 @@ import * as classNames from "classnames"
 import { domx, DomXProps } from "compose-ui-mobx-dom/es/domx"
 import { propReaction } from "compose-ui-mobx-dom/es/prop"
 import { Child } from "compose-ui/es/child"
+import { Context } from "compose-ui/es/context"
+import { FloatingLabel } from "../floating-label/floatingLabel"
 import { NotchedOutline } from "../notched-outline/notchedOutline"
-import { FloatingLabel } from '../floating-label/floatingLabel'
 export interface TextFieldProps {
   value?: () => string
   onChange?: (value: string) => unknown
@@ -15,7 +16,7 @@ export interface TextFieldProps {
 }
 
 export function TextField(props: TextFieldProps = {}) {
-  return function TextField() {
+  return function TextField(context: Context) {
     const { value, onChange, label, inputProps } = props
     return domx({
       tagName: "label",
@@ -25,7 +26,9 @@ export function TextField(props: TextFieldProps = {}) {
           styles["mdc-text-field--outlined"]
         ),
       ref: (element) => {
-        MDCTextField.attachTo(element)
+        if (context.renderer.isBrowser) {
+          MDCTextField.attachTo(element)
+        }
       },
       children: [
         domx<"input">({
@@ -36,7 +39,7 @@ export function TextField(props: TextFieldProps = {}) {
             onChange?.(event.target.value)
           },
           ref: (element) => {
-            if(value != null) {
+            if (value != null) {
               propReaction("value", value, (value) => {
                 element.value = value
               })
@@ -47,7 +50,7 @@ export function TextField(props: TextFieldProps = {}) {
         NotchedOutline({
           notch: FloatingLabel({
             children: [label].filter((e): e is Child => e != null),
-          })
+          }),
         }),
       ],
     })

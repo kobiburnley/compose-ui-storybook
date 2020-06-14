@@ -4,26 +4,42 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "xtest": "mocha \"test/**/*.ts\"  --ignore --require ts-node/register",
+    "test": "jest",
     "compile": "tsc -p tsconfig.build.json",
-    "compile-watch": "tsc -p tsconfig.build.json -w",
+    "compile-watch": "tsc --build tsconfig.composite.json -w",
     "install-local": "npm i compose-ui compose-ui-mobx-dom --registry http://localhost:4873",
-    "storybook": "start-storybook -p 8080"
+    "storybook": "start-storybook -p 8080",
+    "bundle-server": "webpack --config webpack.config.server.ts",
+    "bundle-client": "webpack --config webpack.config.client.ts",
+    "dev-server": "ts-node src/server/server.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-typescript": "^7.9.0",
+    "@babel/core": "^7.10.1",
+    "@babel/generator": "^7.10.2",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
     "@storybook/cli": "^5.3.18",
     "@storybook/html": "^5.3.18",
     "@storybook/preset-typescript": "^3.0.0",
+    "@types/babel-generator": "^6.25.3",
     "@types/classnames": "^2.2.10",
+    "@types/jest": "^25.2.3",
+    "@types/jsdom": "^16.2.3",
     "@types/jss": "^10.0.0",
+    "@types/mocha": "^7.0.2",
     "@types/react": "^16.9.34",
+    "@types/webpack-dev-server": "^3.11.0",
+    "babel-jest": "^26.0.1",
     "babel-loader": "^8.1.0",
     "fork-ts-checker-webpack-plugin": "^4.1.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.0.1",
+    "jsdom": "^16.2.2",
     "jss": "^10.1.1",
+    "mocha": "^7.2.0",
     "node-sass": "^4.13.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
@@ -33,7 +49,7 @@
     "typescript-plugin-css-modules": "^2.3.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "@material/button": "^5.1.0",
@@ -46,5 +62,14 @@
     "fp-ts": "^2.5.4",
     "jss-preset-default": "^10.1.1",
     "mobx": "^5.15.4"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      ".*scss$"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    }
   }
 }

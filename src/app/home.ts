@@ -1,6 +1,6 @@
 import { domx } from "compose-ui-mobx-dom/es/domx"
 import { Switch } from "compose-ui-mobx-dom/es/switch"
-import { Text } from 'compose-ui-mobx-dom/es/text'
+import { text } from "compose-ui-mobx-dom/es/text"
 import { pipe } from "fp-ts/lib/pipeable"
 import { action, observable } from "mobx"
 import { Button } from "../button/button"
@@ -54,8 +54,8 @@ export function Home(props?: GridProps) {
               container: true,
               children: [
                 TextField({
-                  label: Text({
-                    data: () => "Username"
+                  label: text({
+                    data: () => "Username",
                   }),
                   value: () => data.username,
                   onChange: action((value) => {
@@ -63,8 +63,8 @@ export function Home(props?: GridProps) {
                   }),
                 }),
                 TextField({
-                  label: Text({
-                    data: () => "Username copy"
+                  label: text({
+                    data: () => "Username copy",
                   }),
                   value: () => data.username,
                   onChange: action((value) => {

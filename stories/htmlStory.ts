@@ -1,14 +1,14 @@
-import { render } from "compose-ui/es/render"
 import { Child } from "compose-ui/es/child"
+import { Context } from "compose-ui/es/context"
+import { render } from "compose-ui/es/render"
 
-import {EventEmitter} from "events"
-
-export function htmlStory<C>(child: Child, context?: C) {
-  const container = document.createElement("div")
-
+export function htmlStory<C extends Context>(child: Child, context: C) {
   requestAnimationFrame(() => {
-    render(child, container, context, new EventEmitter())
+    render({
+      child,
+      context,
+    })
   })
 
-  return container
+  return context.parentNode
 }
